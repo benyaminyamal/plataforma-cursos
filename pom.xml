@@ -21,7 +21,7 @@
         <java.version>17</java.version>
         <ojdbc.bom.version>21.11.0.0</ojdbc.bom.version>
         <aws.sdk.version>2.34.0</aws.sdk.version>
-        <openpdf.version>2.2.2</openpdf.version>
+        <openpdf.version>1.3.43</openpdf.version>
     </properties>
 
     <dependencyManagement>
@@ -87,6 +87,11 @@
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>s3</artifactId>
+        </dependency>
+        <!-- Cliente HTTP sincrono requerido en runtime por el SDK de AWS -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>apache-client</artifactId>
         </dependency>
 
         <!-- Generacion del resumen de inscripcion como archivo PDF -->
