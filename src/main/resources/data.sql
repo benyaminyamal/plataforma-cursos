@@ -1,0 +1,5 @@
+-- Datos de ejemplo (solo se cargan con el perfil "local" / H2)
+INSERT INTO CURSOS (NOMBRE, INSTRUCTOR, DURACION_HORAS, COSTO) VALUES ('Introduccion a Java', 'Ana Torres', 40, 120.00);
+INSERT INTO CURSOS (NOMBRE, INSTRUCTOR, DURACION_HORAS, COSTO) VALUES ('Spring Boot Avanzado', 'Luis Gomez', 60, 200.00);
+INSERT INTO CURSOS (NOMBRE, INSTRUCTOR, DURACION_HORAS, COSTO) VALUES ('Bases de Datos con Oracle', 'Maria Diaz', 50, 180.00);
+INSERT INTO CURSOS (NOMBRE, INSTRUCTOR, DURACION_HORAS, COSTO) VALUES ('DevOps y CI/CD', 'Carlos Ruiz', 30, 150.00);
